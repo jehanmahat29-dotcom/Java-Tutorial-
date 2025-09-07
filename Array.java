@@ -1,3 +1,4 @@
+import java.util.*;
 public class Array {
     public static void main (String[] args) {
         /*Class of 500 students - You have to store marks of 500 students
@@ -15,6 +16,9 @@ public class Array {
         // System.out.println(marks[4]);
 
         int [] marks = {98,45,79,99,88};
+
+        Arrays.sort(marks);
+        System.out.println(Arrays.toString(marks));
         System.out.println(marks.length);
         System.out.println(marks[0]);
         System.out.println(marks[1]);
