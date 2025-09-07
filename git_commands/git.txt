@@ -12,3 +12,6 @@ To Create branch:
 
 git checkout branchname
 git switch branchname
+
+
+git pull origin main
