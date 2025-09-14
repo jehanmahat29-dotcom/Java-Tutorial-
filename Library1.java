@@ -33,6 +33,10 @@
         }
         System.out.println("The book is not available");
     }
+
+    void returnBook(String book) {
+        addBook(book);
+    }
  }
 
 public class Library1 {
@@ -43,6 +47,8 @@ public class Library1 {
         lib.addBook("Book 3");
         lib.ShowAvailableBooks();
         lib.issueBook("Book 1");
+        lib.ShowAvailableBooks();
+        lib.returnBook("Book 1");
         lib.ShowAvailableBooks();
 
     }
