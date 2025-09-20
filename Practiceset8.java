@@ -71,7 +71,7 @@ class cellphone{
     }
 //Question 6======================================================================================================================================
 //Q.6] Create a class Circle with a method to initialize its radius, calulating area and circumference.
-    class Circle{
+    class Circle2{
         int radius;
         public void area(){
             System.out.println("Area of circle is: "+3.14*radius*radius);
@@ -121,7 +121,7 @@ public class Practiceset8 {
         Tommy.Fire();
 
         //Question 6======================================================================================================================================
-        Circle circle = new Circle();
+        Circle2 circle = new Circle2();
         circle.radius = 13;
         circle.area();
         circle.circumference();
