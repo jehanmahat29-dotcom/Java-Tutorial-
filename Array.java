@@ -1,5 +1,5 @@
 import java.util.*;
-public class Array {
+class Array {
     public static void main (String[] args) {
         /*Class of 500 students - You have to store marks of 500 students
         You have 2 options:
